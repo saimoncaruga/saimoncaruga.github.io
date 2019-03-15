@@ -1311,6 +1311,9 @@ input[type="text"] {
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     border-radius: 30px; }
+    #footer p {
+        color: #c80815;
+    }
 
 .js .animate-box {
   opacity: 0; }
