@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -34,13 +34,13 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #CA82F8;
+  color: #c80815;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
     text-decoration: underline;
-    color: #CA82F8; }
+    color: #c80815; }
   a:focus, a:active {
     outline: none; }
 
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
-        color: #CA82F8; }
+        color: #c80815; }
   #colorlib-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    background: #CA82F8;
+    background: #c80815;
     color: #fff;
     border: none;
     padding: 16px; }
@@ -312,10 +312,10 @@ header {
       font-weight: 400;
       letter-spacing: 5px;
       padding: 7px;
-      border: 1px solid #000;
+      border: 1px solid #c80815;
       display: block;
       text-align: center;
-      background: #000; }
+      background: #c80815; }
       header .colorlib-navbar-brand .colorlib-logo span {
         display: block;
         margin-bottom: 0;
@@ -335,7 +335,7 @@ header {
 #colorlib-progress,
 #colorlib-contact,
 #colorlib-about {
-  padding: 10em 0;
+  padding: 5em 0;
   clear: both;
   position: relative; }
   @media screen and (max-width: 768px) {
@@ -347,7 +347,7 @@ header {
     #colorlib-progress,
     #colorlib-contact,
     #colorlib-about {
-      padding: 5em 0; } }
+      padding: 2em 0; } }
 
 .rotate {
   position: absolute;
@@ -385,7 +385,7 @@ header {
     .about-desc h2 span {
       display: block;
       margin-bottom: 0;
-      color: #000;
+      color: #c80815;
       font-size: 50px;
       font-family: "Playfair Display", Georgia, serif; }
   .about-desc .desc {
@@ -437,7 +437,7 @@ header {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 1.5em;
-    color: #000;
+    color: #c80815;
     position: relative; }
   .intro-heading span {
     display: block;
@@ -757,7 +757,8 @@ header {
     .work-entry .work-img:hover .display-t .work-name {
       padding: 4.5em 3.5em; }
       .work-entry .work-img:hover .display-t .work-name h2 {
-        font-size: 34px; }
+        font-size: 34px;
+        color: #c80815; }
     @media screen and (max-width: 768px) {
       .work-entry .work-img {
         height: 400px; }
@@ -916,7 +917,7 @@ header {
       font-size: 24px; }
       .article .desc h2 a {
         text-decoration: none;
-        color: #000; }
+        color: #c80815; }
   .article:hover .meta {
     background: #fff; }
 
@@ -988,9 +989,9 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #CA82F8;
+  background: #c80815;
   color: #fff;
-  border: 2px solid #CA82F8; }
+  border: 2px solid #c80815; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #d49af9 !important;
     border-color: #d49af9 !important; }
@@ -999,7 +1000,7 @@ header {
     color: #4d4d4d;
     border: 1px solid #d9d9d9; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #CA82F8;
+      background: #c80815;
       color: #fff; }
 
 .btn-success {
@@ -1229,7 +1230,7 @@ header {
       font-size: 16px;
       color: rgba(0, 0, 0, 0.5); }
     .contact-info li a {
-      color: #CA82F8; }
+      color: #c80815; }
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1261,10 +1262,10 @@ input[type="text"] {
 
 .colorlib-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: #c80815; }
 
 #footer {
-  padding: 8em 0;
+  /* padding: 4em 0; */
   display: block;
   width: 100%; }
   #footer h2 {
@@ -1278,7 +1279,7 @@ input[type="text"] {
     text-decoration: none !important; }
   #footer p.colorlib-social-icons i {
     font-size: 24px;
-    color: #CA82F8; }
+    color: #c80815; }
   #footer p .block {
     color: #1a1a1a;
     font-size: 14px; }
