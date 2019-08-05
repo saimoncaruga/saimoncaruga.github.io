@@ -431,7 +431,10 @@ header {
       font-size: 60px; } }
 
 .intro-heading {
-  margin-bottom: 3em; }
+  margin-bottom: 8em; }
+  @media screen and (max-width: 768px) {
+    .intro-heading {
+      margin-bottom: 3em; } }
   .intro-heading h2 {
     font-size: 34px;
     font-weight: 400;
@@ -752,7 +755,7 @@ header {
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
-    .work-entry .work-img:hover .display-t:after {
+    .work-entry .work-img .display-t:after {
       opacity: 1; }
     .work-entry .work-img:hover .display-t .work-name {
       padding: 4.5em 3.5em; }
